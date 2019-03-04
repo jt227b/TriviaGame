@@ -3,25 +3,42 @@ body{
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%;
-    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-family: 'Cabin', sans-serif;
+    
 }
 
 .navbar-brand{
-    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-family: 'Cabin', sans-serif;
     color: #fff;
-    text-decoration: solid;
-    font-size: 25px;
+    font-size: 30px;
 
 }
+
+.container{
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+  
+    
+}
+
+.jumbotron{
+    background-color:black;
+    margin-top: 30px;
+    padding-top: 200px;
+    padding-bottom: 175px;
+    margin-bottom: 30px;
+    border: none;
+}
+
 
 #botton{
     background-color: #1ED760;
     color: #fff;
     font-size: 35px;
-   
     text-align: center;
     padding: 10px 56px 15px;
     border-radius: 500px;
+    
 }
 
 
