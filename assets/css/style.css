@@ -1,0 +1,62 @@
+body{
+    background-image: url(../images/cover.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand{
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-decoration: solid;
+    font-size: 25px;
+
+}
+
+#botton{
+    background-color: #1ED760;
+    color: #fff;
+    font-size: 35px;
+   
+    text-align: center;
+    padding: 10px 56px 15px;
+    border-radius: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1300px){
+
+
+
+    body{
+        background-size: 1300px;
+    }
+    
+    
+    }
