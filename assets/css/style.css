@@ -30,7 +30,7 @@ body{
 }
 
 
-#botton{
+#startButton{
     background-color: #1ED760;
     color: #fff;
     font-size: 35px;
@@ -78,6 +78,10 @@ h1, h2, h4{
 
     #botton{
         margin-top: 0px;
+    }
+
+    .navbar{
+        background-color: black;
     }
     
     }

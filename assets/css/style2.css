@@ -1,0 +1,48 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    color: #fff;
+}
+
+.col-lg-2{
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 10px; 
+}
+
+.col-lg-10{
+    background-image: url(../images/secondBackground.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    background-color: transparent;
+}
+
+.navbar-brand{
+    padding-left: 8px;
+    font-family: 'Cabin', sans-serif;
+    color: #fff;
+    font-size: 29px;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 1300px){
+
+
+
+    .col-lg-10{
+        background-size: 1300px 1100px;
+    }
+    
+    
+    }
