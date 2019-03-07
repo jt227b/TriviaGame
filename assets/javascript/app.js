@@ -15,3 +15,18 @@ $(document).ready(function () {
         return;
     }
 });
+
+function countdown(){
+    count--;
+    $('#timer_number').html(count + "Seconds");
+    $("#doneButton").on("click", function(){
+    count = 0;
+    return;
+    });
+
+    if(count == -1){
+        timeUp();
+        
+    }
+}
+
