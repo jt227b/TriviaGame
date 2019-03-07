@@ -18,7 +18,7 @@ body{
 }
 
 .container{
-    text-align: left;
+    text-align: center;
     font-family: 'Cabin', sans-serif;
     background-color: transparent;
 }
@@ -32,6 +32,17 @@ body{
     font-family: 'Cabin', sans-serif;
     color: #fff;
     font-size: 29px;
+}
+
+#doneButton{
+    background-color: #1ED760;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    padding: 5px 80px 10px;
+    border-radius: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
