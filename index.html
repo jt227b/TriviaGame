@@ -31,12 +31,11 @@
           </p>
           <p class="card-text"><small class="text-muted">RECENTLY PLAYED</small></p>
           <br>
-          <div id="gameOver">
-            <h4>Correct Answers: <span id="correct_answers">0</span></h4>
-            <h4>Incorrect Answers: <span id="wrong_answers">0</span></h4>
-            <h4>Unanswered: <span id="unanswered">0</span></h4>
+          <p class="card-text"><small class="text-muted">This Is Bad Bunny</small></p>
+          <p class="card-text"><small class="text-muted">Fat Freddy's Drop</small></p>
+          <p class="card-text"><small class="text-muted">Frankie Ruiz</small></p>
+          <p class="card-text"><small class="text-muted">SOJA</small></p>
 
-          </div>
         </div>
       </div>
 
@@ -46,101 +45,17 @@
           <div class="card-body">
             <div class="jumbotron">
               <h1 class="card-title">Do You Know Your Music?</h1>
-              <h4 id="timer_line">Time Left: <span id="timer_number">60 Seconds</span></h4>
+
               <br>
 
-              <!--  Questions for Trivia Game -->
-              <h4>1- Who won the 2018 grammy Award for Record of the Year?</h4>
-              <!--Correct Answer: Childish Gambino-->
-              <input type="radio" name="q1" value="Cardi">Cardi B
-              <input type="radio" name="q2" value="Childish">Childish Gambino
-              <input type="radio" name="q3" value="Drake">Drake
-              <input type="radio" name="q3" value="Post">Post Malone
-              <br>
-              <br>
+              <button id="start" class="btn btn-light btn-lg startButton">Start</button>
+              <p id="timeRemaining"> </p>
+              <p id="QuizGame"></p>
+              <button id="submit" class="btn btn-success btn-lg">Submit Quiz</button>
+              <p id="Results"></p>
+              <button id="playAgain" class="btn btn-success btn-lg">Play Again?</button>
 
-              <h4>2- Michael Jackson was known as the King of what genre?</h4>
-              <!--Correct Answer: Pop-->
-              <input type="radio" name="q1" value="Rap">Rap
-              <input type="radio" name="q2" value="Rock">Rock
-              <input type="radio" name="q3" value="Disco">Disco
-              <input type="radio" name="q4" value="Pop">Pop
-              <br>
-              <br>
 
-              <h4>3- Who was the first Rapper to win an Academy Award (Oscar)?</h4>
-              <!--Correct Answer: Eminem-->
-              <input type="radio" name="q1" value="Kendrick">Kendrick Lamar
-              <input type="radio" name="q2" value="Jay">Jay-Z
-              <input type="radio" name="q3" value="Eminem">Eminem
-              <input type="radio" name="q4" value="Tupac">Tupac
-              <br>
-              <br>
-
-              <h4>4- What female holds the Guinness World Records best-selling artist?</h4>
-              <!--Correct Answer: Madonna-->
-              <input type="radio" name="q1" value="Madonna">Madonna
-              <input type="radio" name="q2" value="Rihanna">Rihanna
-              <input type="radio" name="q3" value="Mariah">Mariah Carey
-              <input type="radio" name="q4" value="Whitney">Whitney Houston
-              <br>
-              <br>
-
-              <h4>5- What was the MOST watched music videos on YouTube for 2018?</h4>
-              <!--Correct Answer: Te Boté (Remix)-->
-              <input type="radio" name="q1" value="Dame">Dame Tu Cosita
-              <input type="radio" name="q2" value="Gods">God’s Plan
-              <input type="radio" name="q3" value="teBote">Te Boté (Remix)
-              <input type="radio" name="q4" value="Girls">Girls Like You
-              <br>
-              <br>
-
-              <h4>6- What band named one of their albums: Dark Side of the Moon?</h4>
-              <!--Correct Answer: Pink Floyd-->
-              <input type="radio" name="q1" value="Beatles">The Beatles
-              <input type="radio" name="q2" value="Pink">Pink Floyd
-              <input type="radio" name="q3" value="Coldplay">Coldplay
-              <input type="radio" name="q4" value="Rolling">The Rolling Stones
-              <br>
-              <br>
-
-              <h4>7- Which musician popularized the Reggae Genre?</h4>
-              <!--Correct Answer: Bob Marley-->
-              <input type="radio" name="q1" value="UB40">UB40
-              <input type="radio" name="q2" value="seanPaul">Sean Paul
-              <input type="radio" name="q3" value="Shaggy">Shaggy
-              <input type="radio" name="q4" value="Marley">Bob Marley
-              <br>
-              <br>
-
-              <h4>8- What city is the birthplace of the Jazz?</h4>
-              <!--Correct Answer: New Orleans-->
-              <input type="radio" name="q1" value="newOrleans">New Orleans
-              <input type="radio" name="q2" value="Memphis">Memphis
-              <input type="radio" name="q3" value="Detroit">Detroit
-              <input type="radio" name="q4" value=" Nashville">Nashville
-              <br>
-              <br>
-
-              <h4>9- "Do I Wanna Know?" is a popular song from what Indie Rock Band?</h4>
-              <!--Correct Answer: Arctic Monkeys-->
-              <input type="radio" name="q1" value="killers">The Killers
-              <input type="radio" name="q2" value="Monkeys">Arctic Monkeys
-              <input type="radio" name="q3" value="Radiohead">Radiohead
-              <input type="radio" name="q4" value="Dragons">Imagine Dragons
-              <br>
-              <br>
-
-              <h4>10- Who wrote the song Feliz Navidad?</h4>
-              <!--Correct Answer: Jose Feliciano-->
-              <input type="radio" name="q1" value="Ricky">Ricky Martin
-              <input type="radio" name="q2" value="Sinatra">Frank Sinatra
-              <input type="radio" name="q3" value="Jose">Jose Feliciano
-              <input type="radio" name="q4" value="mCarey">Mariah Carey
-              <br>
-              <br>
-
-              <button id="doneButton" class="btn btn-lg btn-green btn-cta" role="button">Done</button>
 
             </div>
           </div>
@@ -152,11 +67,10 @@
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
-    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
-  <script src="./assets/javascript/app.js"></script>
+  <script type="text/javascript" src="./assets/javascript/app.js"></script>
 </body>
 
 </html>

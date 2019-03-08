@@ -1,19 +1,21 @@
 body{
     font-family: 'Cabin', sans-serif;
     color: #fff;
+    background-size: cover;
 }
 
 .col-lg-2{
     background-color: black;
     padding-top: 10px;
-    padding-left: 10px; 
+    padding-left: 10px;
+    height: 1500px; 
 }
 
 .col-lg-10{
     background-image: url(../images/secondBackground.png);
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     
 }
 
@@ -34,7 +36,14 @@ body{
     font-size: 29px;
 }
 
-#doneButton{
+.seperateQuestions{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.startButton, #submit, #playAgain{
     background-color: #1ED760;
     color: #fff;
     font-size: 35px;
@@ -52,6 +61,8 @@ body{
 
 
 
+
+
 @media(max-width: 1300px){
 
 
@@ -61,10 +72,16 @@ body{
     }
     
     
+    
     }
 
     @media(max-width: 500px){
         .col-lg-10{
             background-size: 500px 2100px;
         }
+
+        .col-lg-2{
+            height: 250px;
+        }
+        
     }
