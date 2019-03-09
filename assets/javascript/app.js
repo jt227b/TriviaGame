@@ -221,10 +221,10 @@ $(document).ready(function () {
         $("#timeRemaining").hide();
         timerId = setInterval(countdown, 1000);
 
-        //hide button
+        // hide button //
         $(this).hide();
 
-        //show submit button
+        // show submit button //
         $("#submit").show();
 
         $("#timeRemaining").show();
@@ -232,7 +232,7 @@ $(document).ready(function () {
 
 
 
-        //display questions
+        //display questions & use for CSS//
         for (var i = 0; i < triviaQuestions.length; i++) {
             console.log(triviaQuestions[i].question);
             console.log(triviaQuestions[i].choices[0]);
